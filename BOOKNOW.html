@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>student form creation</title>
+</head>
+<body>
+<form action="" method="post">
+<tr>
+<th><label for="fname">  First Name</label></th>
+ <td> <input type="text" id="fname" name="firstname" placeholder="Your name.."></td>
+ </tr>
+ <br><br>
+ <tr>
+ <th>  <label for="lname">Last Name</label></th>
+ <td> <input type="text" id="lname" name="lastname" placeholder="Your last name.."></td>
+ </tr>
+ <br><br>
+ <tr>
+<th><label for ="phone">CONTACT </label></th>
+<td><input placeholder="enter 10 digits" pattern="{0-9}{10}"  maxlength="10" type="text" name= "contact" id= "phone" required></td>
+</tr>
+<br><br>
+<tr>
+<th><label for="id">EMAIL ID</label></th>
+<td><input type ="text" placeholder= "enter email id" name="email" required</td>
+</tr>
+<br><br>
+<label for="country">COUNTRY</label>
+<select id ="country" name= "country">
+<option value= "INDIA">INDIA</option>
+<option value= "U.S.A">U.S.A</option>
+<option value= "AUSTRALIA">AUSTRALIA</option>
+</select>
+<input type="submit" value="Submit">
+</body>
+</html>
